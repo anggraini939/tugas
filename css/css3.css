@@ -1,0 +1,233 @@
+body {
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 1000px;
+	border-bottom: solid 05px #eee;
+	padding: 0px 0px 0px 0px;	
+}
+
+#conteudo1 {
+	width:1000px;
+	height: 17px;
+	padding:25px;
+	margin:-15px auto;
+	background:#FFFF;
+	border-radius: 5px;
+
+}
+nav {
+    height:40px;
+    background-color:#FFFF;
+    line-height:50px; 
+    width:300px;
+    margin:-25px 0px 0px 700px;
+
+}
+nav ul {
+    list-style:none;
+}
+nav ul li a {
+    float:left;
+    width:100px;
+    color:#666;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+}
+nav ul li a:hover {
+    background-color:#eee;
+    display:block;
+}
+/*css untuk menu hover dropdown*/
+nav ul li:hover .sub1 {display:block}
+nav ul .sub1 {
+    display:none;
+    position:absolute;
+    left:50px;
+    top:50px;
+    background-color:#d35400;
+}
+.sub1 a:hover { color:#fff }
+
+
+#conteudo {
+	width:1000px;
+	height: 900px;
+	padding:25px;
+	margin:25px auto;
+	background:#FFFF;
+	border-radius: 5px;
+}
+#conteudo h2 {
+	text-align: center;
+	color: #666;
+	font-family: 'arial';
+}
+
+#button {margin: 5% 5% 5% 5%; width: 200px; text-align: left;}
+#button a {
+	width: 150px;
+	height: 20px;
+	vertical-align: middle;
+	background-color: #00BFFF;
+	color: #fff;
+	text-decoration: none;
+	padding: 6px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	font-family: 'Calibri';
+}
+#button a:hover {
+    background-color: #87CEFA;
+}
+
+.ff {
+    width:950px;
+    margin: 0% 0% 2% 0% ;
+    text-align:right;
+}
+.search {
+    padding:8px 5px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+    border-radius: 5px;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-50px;
+    border:2px solid #00BFFF;
+    border-top-right-radius: 5px;
+  	border-bottom-right-radius: 5px;
+    background-color:#00BFFF;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+/* Jendela Pop Up */
+#popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;	
+	visibility: hidden;
+}
+
+.window {
+	width: 400px;
+	height: 500px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	text-align: center;
+	margin: 2% auto;
+  	padding: 2rem;
+  	color: #444;
+}
+.window h2 {
+	font-family: 'Calibri';
+	padding-bottom: 20px;
+	border-bottom: solid 2px #eee;
+
+}
+/* Button Close */
+.close-button {
+	width: 6%;
+	height: 5%;
+	line-height: 27px;
+	background: #000;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+
+
+/* Memunculkan Jendela Pop Up*/
+#popup:target {
+	visibility: visible;
+}
+/*form tambah*/
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px;
+}
+.table1 td{
+	font-size: 11pt;
+	text-align: left;
+}
+.kotak{
+	border: 2px solid #eee;
+	border-radius:7%;
+	width: 100%;
+	padding: 10px;
+}
+.tbl{
+	background: #00BFFF;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+/*tampil data*/
+.table2 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid #f2f5f7;
+}
+ 
+ 
+.table2 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: bold;
+}
+ 
+.table2, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.table2 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tombol a {
+	background-color: #00BFFF;
+	font-size: 10pt;
+	color: #fff;
+	text-decoration: none;
+	padding: 3px;
+	border-radius: 5px;
+	border: 0px solid transparent;
+	font-family: 'Calibri';
+}
+.tombol a:hover {
+    background-color: #87CEFA;
+}
+
